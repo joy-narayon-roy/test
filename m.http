@@ -1,0 +1,9 @@
+http://localhost:8080/api
+
+###
+POST http://localhost:8080/api
+Content-Type: application/json
+
+{
+    "name": "Sample"
+}
