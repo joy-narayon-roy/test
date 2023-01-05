@@ -22,6 +22,7 @@ app.listen(PORT, function (err) {
   if (err) {
     console.log(err);
   } else {
+    console.log(this)
     console.log(`http://localhost:${PORT}`);
   }
 });
