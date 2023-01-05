@@ -17,7 +17,8 @@ app.use([
 ]);
 
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, (err) => {
+app.listen(PORT, function (err) {
+  console.log(this.address());
   if (err) {
     console.log(err);
   } else {
